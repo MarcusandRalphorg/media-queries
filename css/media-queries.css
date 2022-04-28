@@ -21,10 +21,29 @@ h1 {
 }
 
 .nav-links {
+    text-align: center;
+    /*background-color: #CCCCCC;*/
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
     list-style-type: none;
+    padding: 5px;
+    flex-direction: column; justify-content: space-around;
+}
+li {
+    margin: 10px;
+    height: 1em;
+    background-color: #CCCCCC;
+    padding: .5em;
+    align-content: space-evenly;
 
 }
 
+.header-img {
+/* screen sizes 500px and up */
+@media screen and (min-width:500px) {
+    selector {
+        property: value;
+    }
+}
+}
