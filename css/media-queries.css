@@ -1,0 +1,30 @@
+.alert-info {
+    text-align: center;
+    border: #CCCCCC solid 1px;
+    padding: 1em;
+    width: 90%;
+    background-color: #CCFEFF;
+
+
+}
+
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: .67em;
+    margin-block-end: .67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-width: bold;
+}
+
+.nav-links {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style-type: none;
+
+}
+
